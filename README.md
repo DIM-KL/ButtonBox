@@ -20,4 +20,4 @@ Create list of button in parent use HTML, CSS and JavaScript.
         Create button in 'buttonList'.
     *params:
         func - callback function wich use then button will be clicked
-        title - strin of title button
+        title - string of title button
