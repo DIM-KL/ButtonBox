@@ -33,6 +33,7 @@ EXAMPLE:
 
 
 function f1(){alert("f1")};
+
 function f2(){alert("f2")};
 
 var bbox = new ButtonBox({'margin' : 4,
@@ -40,6 +41,7 @@ var bbox = new ButtonBox({'margin' : 4,
                          'top' : 90});
 
 bbox.createButton(f1, 'f1');
+
 bbox.createButton(f2, 'f2');
 
 var rbox = new ButtonBox({'margin' : 10,
@@ -47,5 +49,7 @@ var rbox = new ButtonBox({'margin' : 10,
                           'left': 60,
                            'width' : 60,
                            'height': 100});
-rbox.createButton(f1, 'f1');;
-rbox.createButton(f1, 'f1');;
+			   
+rbox.createButton(f1, 'f1');
+
+rbox.createButton(f1, 'f1');
