@@ -12,8 +12,8 @@ var buttonList = new ButtonBox(optional {'parent' : HTMLElement,
 
 Create list of button in parent use HTML, CSS and JavaScript.
 
-  Parametrs:
-    *params{} - hash of optional parametrs;
+#  Parametrs:
+    *params{} - hash of optional parametrs; /n
     	parent -  parent HTMLElement wich will be the container for 'ButtonBox'. Default 'document.body'.
 	width - width ButtonBox on the pixel. Default 130.
 	left, top - define left and top position of 'ButtonBox'. Default they define - 0;
