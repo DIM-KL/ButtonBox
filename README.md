@@ -1,5 +1,6 @@
 # ButtonBox
 
+<pre>
 `var buttonList = new ButtonBox(optional {'parent' : HTMLElement,
                     'width' : int,
                     'left' : int,
@@ -8,32 +9,32 @@
                     'button_color' : color,
                     'margin' : int
                     })`
-
+</pre>
 
 Create list of button in parent use HTML, CSS and JavaScript.
 
 #  Parametrs:
-    *params{} - hash of optional parametrs; /n
+<pre>
+    *params{} - hash of optional parametrs:
     	parent -  parent HTMLElement wich will be the container for 'ButtonBox'. Default 'document.body'.
 	width - width ButtonBox on the pixel. Default 130.
 	left, top - define left and top position of 'ButtonBox'. Default they define - 0;
 	margin - space beetween button in the 'ButtonBox'. Default be 0.
 	bg_color - background color of 'ButtonBox'. Default color as system.
 	button_color - color's of button. Default color as system.
-	
+</pre>
   
-  Methods:
+  ****Methods:****
+<pre>
        *buttonList.createButton(func, title) - Create button in 'buttonList'.
     *params:
         func - callback function wich use then button will be clicked
         title - string of title button.
-	
-EXAMPLE:
-
-
-
+</pre>
+#EXAMPLE:
+<pre>
+`
 function f1(){alert("f1")};
-
 function f2(){alert("f2")};
 
 var bbox = new ButtonBox({'margin' : 4,
@@ -51,5 +52,6 @@ var rbox = new ButtonBox({'margin' : 10,
                            'height': 100});
 			   
 rbox.createButton(f1, 'f1');
-
 rbox.createButton(f1, 'f1');
+`
+</pre>
