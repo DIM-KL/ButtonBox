@@ -1,13 +1,13 @@
 # ButtonBox
 
-var buttonList = new ButtonBox(optional {'parent' : HTMLElement,
+`var buttonList = new ButtonBox(optional {'parent' : HTMLElement,
                     'width' : int,
                     'left' : int,
 	            'top' : int,
                     'bg_color' : color,
                     'button_color' : color,
                     'margin' : int
-                    })
+                    })`
 
 
 Create list of button in parent use HTML, CSS and JavaScript.
