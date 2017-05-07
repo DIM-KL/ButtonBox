@@ -31,7 +31,7 @@ Create list of button in parent use HTML, CSS and JavaScript.
         func - callback function wich use then button will be clicked
         title - string of title button.
 </pre>
-#EXAMPLE:
+# EXAMPLE:
 <pre>
 `
 function f1(){alert("f1")};
