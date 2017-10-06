@@ -13,24 +13,23 @@
 
 Create list of button in parent use HTML, CSS and JavaScript.
 
-#  Parametrs:
-<pre>
-    *params{} - hash of optional parametrs:
-    	parent -  parent HTMLElement wich will be the container for 'ButtonBox'. Default 'document.body'.
-	width - width ButtonBox on the pixel. Default 130.
-	left, top - define left and top position of 'ButtonBox'. Default they define - 0;
-	margin - space beetween button in the 'ButtonBox'. Default be 0.
-	bg_color - background color of 'ButtonBox'. Default color as system.
-	button_color - color's of button. Default color as system.
-</pre>
+##  Parametrs:  
+
+ **params{}**  - hash of optional parametrs:
+- **parent** -  parent HTMLElement wich will be the container for 'ButtonBox'. Default *'document.body'*.  
+- **width** - width ButtonBox on the pixel. Default *130*.  
+- **left**, **top** - define left and top position of 'ButtonBox'. Default they define - *0*;
+- **margin** - space beetween button in the 'ButtonBox'. Default be *0*.
+- **bg_color** - background color of 'ButtonBox'. Default color as system.
+- **button_color** - color's of button. Default color as system.
+
   
-  ****Methods:****
-<pre>
-       *buttonList.createButton(func, title) - Create button in 'buttonList'.
-    *params:
-        func - callback function wich use then button will be clicked
-        title - string of title button.
-</pre>
+## Methods: 
+ **createButton(func, title)** - Create button in 'buttonList'. **params:**  
+1. **func** - callback function wich use then button will be clicked  
+2. **title** - string of title button.
+
+
 # EXAMPLE:
 <pre>
 `
