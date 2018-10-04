@@ -36,7 +36,7 @@ default set value *'v'*
 
 # EXAMPLE:
 <pre>
-`function f1(){alert("f1")};
+function f1(){alert("f1")};
 function f2(){alert("f2")};
 
 var bbox = new ButtonBox({'margin' : 4,
