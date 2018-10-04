@@ -22,7 +22,11 @@ Create list of button in parent use HTML, CSS and JavaScript.
 - **margin** - space beetween button in the 'ButtonBox'. Default be *0*.
 - **bg_color** - background color of 'ButtonBox'. Default color as system.
 - **button_color** - color's of button. Default color as system.
-
+- **getButton** -  function return button. Default use *document.createElement('button')*
+- **vh** - Must set val of string 'v' or 'h'. Declare how buttons will put in box:
+	- *'v'* - button will put in column
+	- *'h'* - button vill put in line
+default set value *'v'*
   
 ## Methods: 
  **createButton(func, title)** - Create button in 'buttonList'. **params:**  
@@ -32,25 +36,32 @@ Create list of button in parent use HTML, CSS and JavaScript.
 
 # EXAMPLE:
 <pre>
-`
-function f1(){alert("f1")};
+`function f1(){alert("f1")};
 function f2(){alert("f2")};
 
 var bbox = new ButtonBox({'margin' : 4,
                          'left' : 10,
                          'top' : 90});
 
-bbox.createButton(f1, 'f1');
+bbox.setButton(f1, 'f1');
+bbox.setButton(f2, 'f2');
 
-bbox.createButton(f2, 'f2');
-
+//debugger;;/*
 var rbox = new ButtonBox({'margin' : 10,
                           'top' : 10,
-                          'left': 60,
+                          'left': 150,
                            'width' : 60,
                            'height': 100});
-			   
-rbox.createButton(f1, 'f1');
-rbox.createButton(f1, 'f1');
+rbox.setButton(f1, 'f1');;
+rbox.setButton(f1, 'f1');;
+
+var hbox = new ButtonBox({'margin' : 10,
+                          'top' : 230,
+                          'left': 10,
+                           //'width' : 60,
+                           
+                            'vh' : 'h'});
+hbox.setButton(f1, 'hf1');;
+hbox.setButton(f2, 'hf2');;
 `
 </pre>
