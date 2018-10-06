@@ -86,7 +86,7 @@ ButtonBox.init = function(params){
       {
         if (params.vh != 'v') {
           console.log('params.vh = ' + params.vh);
-          console.log('warning - params vh no set in value "v" or "h" and set in valu default "v". All buttons in this ButtonBox will put on column ');
+          console.log('warning - params vh no set in value "v" or "h" and will be set in value default "v". All buttons in this ButtonBox will put on column ');
         } ;
         this._params.vh = 'v';
         this._marginPtr = 'marginTop'  
